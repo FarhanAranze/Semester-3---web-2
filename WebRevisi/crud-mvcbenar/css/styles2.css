@@ -1,0 +1,127 @@
+/* === BAGIAN CUSTOM ANDA YANG LAMA (TETAP DIPAKAI) === */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h5 {
+    font-weight: 600;
+}
+
+.dashboard-header {
+    text-align: center;
+    color: #6c6d6e;
+}
+
+.dashboard-header span {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.card-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.klien {
+    background: #2c3e50;
+    padding: 12px;
+}
+.klien ul {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    margin: 0;
+    padding: 0;
+}
+.klien a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.klien a:hover {
+    opacity: .8;
+}
+
+/* === TEMA BARU: UNGU ELEGAN & SIDEBAR TERANG === */
+
+/* 1. Ganti Navbar Biru menjadi Ungu */
+.sb-topnav {
+    background-color: #6f42c1 !important; /* Warna Ungu Baru */
+}
+/* Ganti tombol search di navbar agar serasi */
+.sb-topnav .btn-primary {
+    background-color: #5a37a0; /* Ungu lebih gelap */
+    border-color: #5a37a0;
+}
+
+/* 2. Ganti Sidebar Gelap menjadi Terang */
+.sb-sidenav-dark {
+    background-color: #f8f9fa; /* Latar belakang abu-abu terang */
+    color: #212529; /* Warna teks jadi hitam */
+}
+
+/* 3. Sesuaikan Teks & Ikon di Sidebar Terang */
+.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
+    color: #adb5bd; /* Judul menu jadi abu-abu */
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav .nav-link {
+    color: #343a40; /* Teks link jadi hitam */
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {
+    color: #555; /* Ikon jadi abu-abu gelap */
+}
+
+/* 4. Sesuaikan Link Aktif & Hover di Sidebar Terang */
+.sb-sidenav-dark .sb-sidenav-menu .nav .nav-link:hover {
+    color: #000; /* Teks hover jadi hitam pekat */
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav .nav-link.active {
+    color: #6f42c1; /* Link aktif jadi ungu */
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav .nav-link.active .sb-nav-link-icon {
+    color: #6f42c1; /* Ikon link aktif jadi ungu */
+}
+
+/* 5. Ganti Footer Sidebar */
+.sb-sidenav-dark .sb-sidenav-footer {
+    background-color: #e9ecef; /* Latar footer jadi abu-abu */
+    color: #212529; /* Teks footer jadi hitam */
+}
+
+/* 6. Ganti Judul Pink menjadi Ungu */
+.dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #6f42c1; /* BERUBAH DARI PINK KE UNGU */
+    font-weight: 700;
+}
+
+/* 7. Ganti Tombol Pink menjadi Ungu */
+.btn-primary {
+    background-color: #6f42c1; /* BERUBAH DARI PINK KE UNGU */
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #5a37a0; /* Ungu lebih gelap saat hover */
+}
